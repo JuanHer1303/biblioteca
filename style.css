@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+#contacto {
+    margin-top: 20px;
+}
+
+#contacto h3 {
+    color: #333;
+}
+
+#contacto ul {
+    list-style-type: none; /* Eliminar viñetas */
+}
+
+#contacto ul li {
+    margin: 5px 0; /* Espaciado entre elementos */
+}
+
+#contacto ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #007BFF; /* Color del enlace */
+}
+
+#contacto ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
